@@ -1,5 +1,5 @@
 # GIPHY API
-This simple app connects to GIPHY API and gives you buttons with popular reactions. Click one of those initial buttons and 10 still GIFs of that reactions will be displayed. If you click on one of those images you will be able to see the animation. Click again to pause it. 
+This simple app connects to the GIPHY API and displays initial buttons with popular reactions. Click one of those initial buttons and 10 still GIFs of that reaction will be displayed. If you click on one of those images you will be able to see the animation. Click again to pause it. 
 
 ## Getting Started
 
