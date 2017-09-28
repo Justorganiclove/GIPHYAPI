@@ -1,0 +1,49 @@
+body { background-color: black;
+	   color: white;
+	   width: 90%;
+	   margin: 0px auto 0px auto;
+	   font-family: 'Open Sans', sans-serif;
+
+}
+
+div { background-color: red; 
+	  padding: 10px;
+	  font-family: 'Open Sans', sans-serif;
+
+}
+
+form{ padding: 10px	;
+	 /*text-align: center;*/
+
+}
+
+h1{
+	background-color: white;
+	color: black;
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	padding: 20px;
+	font-size: 40px;
+}
+
+.button {
+    background-color: gold;
+    border: 5px;
+    border-color: black;
+    color: black;
+    padding: 5 px;
+    border-radius: 10px;
+    margin: 0px 3px 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#results{
+	background-color: white;
+	margin: 0px auto 0px auto;
+	color: black;
+
+}
