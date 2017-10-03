@@ -8,14 +8,12 @@ var apiResponse;
 
 function startApp() {
     for (var i = 0; i < topics.length; i++) {
-       addButtons(topics[i])
+       addButtons(topics[i]);
+      
     }
 }
-///OMThis...
 $(document).on("click", ".image", function() {
-
     var play = $(this).attr("data-state");
-
     if (play === "still") {
         $(this).attr("src", $(this).attr("data-animate"));
         $(this).attr("data-state", "animate");
@@ -25,13 +23,11 @@ $(document).on("click", ".image", function() {
     }
 });
 
-//this doesn't quite work yet\O_O/ I get the whole array added instead of the latest entry and the new buttons are not clickable
 function addButtons(data) {
     console.log('data',data);
     var newButton = $("<button class='button'></button>").text(data);
-    
     newButton.click(function(event) {
-        // $("#results").empty();
+        $("#results").empty();
         var innerText = event.target.innerText
         var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + innerText +
             "&api_key=oJXYB9UEAxlt7Askjtj8qc5zVBZOzrqx&limit=10";
